@@ -441,7 +441,7 @@ a:hover {
 	display: none;
 }
 .input_search {
-	background: url(/img/icon/search.png) no-repeat;
+	background: url(../img/icon/search.png) no-repeat;
 	background-position: 20px;
 	width: 340px;
 	height: 59px;
