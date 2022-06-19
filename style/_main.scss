@@ -545,6 +545,8 @@ body {
 		margin-bottom: 16px;
 	}
 	&.sidebar_img {
+		display: flex;
+		justify-content: center;
 		max-width: 100%;
 	}
 	&.sidebar_img img {

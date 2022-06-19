@@ -732,6 +732,8 @@ body.notOverflow {
   margin-bottom: 16px;
 }
 .sidebar_item.sidebar_img {
+  display: flex;
+  justify-content: center;
   max-width: 100%;
 }
 .sidebar_item.sidebar_img img {
