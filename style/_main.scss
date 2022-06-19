@@ -870,9 +870,6 @@ body {
 }
 
 @media screen and (max-width: 1090px) {
-	.footer_items {
-		justify-content: flex-start;
-	}
 	.footer_item {
 		min-width: 160px;
 		&.about_card {
