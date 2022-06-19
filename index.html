@@ -15,203 +15,234 @@
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/css/style.css" />
   </head>
   <body>
     <div class="wrapper">
-      <div class="warning">
-        <img src="img/icon/alert.png" alt="alert" />
-        <span class="alert"> You are not protected </span>
-        <div class="warn_ip">
-        <span class="ip">Your IP Address: <span id="ip"></span> </span>
-        <span class="ip">Your ISP: Comcast Cable</span>
-        </div>
-        <a href="#" class="warning_link">Learn More ›</a>
-        <span class="warning_close">&times</span>
+      <header> 
+        <div class="warning">
+          <div class="warning_container">
+            <span class="alert"> You are not protected </span>
+              <span class="ip">Your IP Address: <span id="ip"></span> </span>
+              <span class="ip">Your ISP: Comcast Cable</span>
+            <a href="#" class="warning_link">Learn More ›</a>
+          </div>
+          <span class="warning_close">&times</span>
       </div>
         <div class="container">
-      <nav class="nav">
-        <div class="nav__burger"><span></span></div>
-        <div class="nav_companyName">Company Name</div>
-        <div class="nav_menu">
-          <ul>
-            <li >
-              <a href="#" class="menu_item">why us <span class="arrow">&#9660</span></a>
+          <nav class="nav">
+            <div class="nav__burger"><span></span></div>
+            <h1 class="nav_company">Company Name</h1>
+            <div class="nav_menu">
               <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
+                <li class="menu_item" >
+                  <a href="#">why us <span class="arrow">&#9660</span></a>
+                  <ul class="sub_menu">
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                  </ul>
+                </li>
+                <li class="menu_item">
+                  <a href="#" >vpn apps</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" >support <span class="arrow">&#9660</span></a>
+                  <ul class="sub_menu">
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                  </ul>
+                </li>
+                <li class="menu_item">
+                  <a href="#" >resources <span class="arrow">&#9660</span></a>
+                  <ul class="sub_menu">
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-            <li >
-              <a href="#" class="menu_item">vpn apps</a>
-            </li>
-            <li >
-              <a href="#" class="menu_item">support <span>&#9660</span></a>
-              <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-              </ul>
-            </li>
-            <li >
-              <a href="#" class="menu_item">resources <span>&#9660</span></a>
-              <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="nav_btn">
-            <a href="#" class="btn btn_primary">log in</a>
-            <a href="#" class="btn btn_secondary">get started</a>
-        </div>
-      </nav>
-      
-        <div class="header">
-            <img src="img/Group 7.png" alt="img">
-            <div class="header_text post_text">
+            </div>
+            <div class="nav_btn">
+                <a href="#" class="btn btn_primary">log in</a>
+                <a href="#" class="btn btn_secondary">get started</a>
+            </div>
+          </nav>
+        </div>        
+      </header>
+      <main>
+        <section class="about">
+          <div class="container main_card ">
+            <div class="card_img">
+              <img src="img/Group 7.png" alt="TV remote control">
+            </div>            
+            <div class="header_text">
                 <a href="#"> TV Addons: Legal battle against Canadian media giants 
                     demonstrates severe consequences facing developers accused 
                     of copyright infringement</a>
-            <div class="comment header_comment">
-                <div> Danica Sergison <span class="comment_date"> |  JUL 08, 2018</span> </div>
-                    <div><span class="green comment_tags">
-                    <a href="#">Governments</a>,
-                    <a href="#">News</a>,
-                    <a href="#">Open Source</a>,
-                    <a href="#">Privacy</a>,
-                    </span></div>
-                <div class="comment_massage"><img src="img/icon/Comment_2.png" alt="comment"><span class="comment_date">0</span></div>
-            </div>
-            </div>
-        </div>
-        <div class="tags">
-            <span class="tags_link">tags:</span>
-            <div>
-            <a href="#" class="green">bitcoin</a>
-            <a href="#" class="green">bittorent</a>
-            <a href="#"class="green">irc</a>
-            <a href="#"class="green">news</a>
-            <a href="#"class="green">privacy</a>
-            <a href="#"class="green">programming</a>
-            <a href="#"class="green">security</a>
-            </div>
-            <div>
-            <a href="#" class="tags_link">team</a>
-            <a href="#" class="tags_link">contact</a>
-            </div>
-        </div>
-        <div class="main">
-            <input type="search" placeholder="Search blog" class="input_search search_mobile">
-          <div class="posts">
-              <span>Recent posts</span>
-              <div class="posts_item">
-                  <img src="img/posts1.png" alt="Picture" class="posts_img">
-                  <div class="post_text">
-                      <a href="#">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises</a> 
-                        <div class="comment post_comment">
-                            <div> Derek Zimmer <span class="comment_date"> |  JUL 25, 2018</span> </div>
-                            <div><span class="green comment_tags">
-                                <a href="#">Governments</a>,
-                                <a href="#">Networking</a>,
-                                <a href="#">Open Source</a>,
-                                <a href="#">Privacy</a>,
-                                <a href="#">Security</a>
-                                </span>
-                            </div>
-                            <div class="comment_massage"><img src="img/icon/Comment_2.png" alt="comment"><span class="comment_date">0</span></div>
-                        </div>
-                    </div>
-              </div>
-              <div class="posts_item">
-                  <img src="img/posts2.png" alt="Picture" class="posts_img">
-                  <div class="post_text">
-                        <a href="#">How to get cheaper flights using a VPN</a> 
-                        <div class="comment post_comment">
-                        <div> Jayson <span class="comment_date"> |  JUL 24, 2018</span> </div>
-                        <div><span class="green comment_tags">
-                            <a href="#">Guides</a>
-                        </span></div>
-                        <div class="comment_massage"><img src="img/icon/Comment_2.png" alt="comment"><span class="comment_date">0</span></div>
-                        </div>   
+                <div class="comment header_comment">
+                  <div class="comment_person"> Danica Sergison 
+                    <span class="comment_date"> |  JUL 08, 2018
+                    </span>
                   </div>
-              </div>
-              <div class="posts_item">
-                  <img src="img/posts3.png" alt="Picture" class="posts_img">
-                  <div class="post_text">
-                      <a href="#"> Net Neutrality was repealed, but the fight is far from over</a>
-                        <div class="comment post_comment">
-                        <div> Chris Miller <span class="comment_date"> |  JUL 22, 2018</span> </div>
-                        <div><span class="green comment_tags">
-                            <a href="#">Governments</a>,
-                            <a href="#">Net Neutrality</a>,
-                            <a href="#">News</a>
-                        </span></div>
-                        <div class="comment_massage"><img src="img/icon/Comment_2.png" alt="comment"><span class="comment_date">0</span></div>
-                        </div>   
-                  </div>
-              </div>
-              <div class="posts_item mobile">
-                  <img src="img/posts1.png" alt="Picture" class="posts_img">
-                  <div class="post_text">
-                      <a href="#">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises</a> 
-                        <div class="comment post_comment">
-                            <div> Derek Zimmer <span class="comment_date"> |  JUL 25, 2018</span> </div>
-                            <div><span class="green comment_tags">
-                                <a href="#">Governments</a>,
-                                <a href="#">Networking</a>,
-                                <a href="#">Open Source</a>,
-                                <a href="#">Privacy</a>,
-                                <a href="#">Security</a>
-                                </span>
-                            </div>
-                            <div class="comment_massage"><img src="img/icon/Comment_2.png" alt="comment"><span class="comment_date">0</span></div>
-                        </div>
-                    </div>
-              </div>
-              <div class="posts_item mobile">
-                  <img src="img/posts2.png" alt="Picture" class="posts_img">
-                  <div class="post_text">
-                        <a href="#">How to get cheaper flights using a VPN</a> 
-                        <div class="comment post_comment">
-                        <div> Jayson <span class="comment_date"> |  JUL 24, 2018</span> </div>
-                        <div><span class="green comment_tags">
-                            <a href="#">Guides</a>
-                        </span></div>
-                        <div class="comment_massage"><img src="img/icon/Comment_2.png" alt="comment"><span class="comment_date">0</span></div>
-                        </div>   
-                  </div>
-              </div>
-              <div class="posts_item mobile">
-                  <img src="img/posts3.png" alt="Picture" class="posts_img">
-                  <div class="post_text">
-                      <a href="#"> Net Neutrality was repealed, but the fight is far from over</a>
-                        <div class="comment post_comment">
-                        <div> Chris Miller <span class="comment_date"> |  JUL 22, 2018</span> </div>
-                        <div><span class="green comment_tags">
-                            <a href="#">Governments</a>,
-                            <a href="#">Net Neutrality</a>,
-                            <a href="#">News</a>
-                        </span></div>
-                        <div class="comment_massage"><img src="img/icon/Comment_2.png" alt="comment"><span class="comment_date">0</span></div>
-                        </div>   
-                  </div>
-              </div>
-              
-              <a href="#" class="btn  post_btn">older posts</a>
+                  <ul class="comment_tags">
+                    <li><a href="#">Governments</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Open Source</a></li>
+                    <li><a href="#">Privacy</a></li>
+                  </ul>
+                  <div class="comment_answer">0</div>
+                </div>
+            </div>
           </div>
-          <div class="sidebar">
-              <input type="search" placeholder="Search blog" class="input_search">
+        </section>
+        <section class="container tags">
+            <span class="tags_link">tags:</span> 
+              <ul>
+                <li><a href="#">bitcoin</a></li>
+                <li><a href="#">bittorent</a></li>
+                <li><a href="#">irc</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">privacy</a></li>
+                <li><a href="#">programming</a></li>
+                <li><a href="#">security</a></li>
+              </ul>            
+            
+              <ul class="tags_link">
+                <li><a href="#" >team</a></li>
+                <li><a href="#" >contact</a></li>
+              </ul>
+        </section>
+        <section class="resents_posts">
+          <div class="container posts">
+            <div class="items">
+              <h2>Recent posts</h2>
+              <div class="posts_item">
+                  <img src="img/posts1.png" alt="Picture" class="posts_img">
+                  <div class="post_text">
+                      <a href="#">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises</a> 
+                        <div class="comment post_comment">
+                            <div class="comment_person"> Derek Zimmer 
+                              <span class="comment_date">|  JUL 25, 2018</span> 
+                              </div>
+                            <ul class="comment_tags">
+                              <li><a href="#">Governments</a></li>
+                              <li><a href="#">Networking</a></li>
+                              <li><a href="#">Open Source</a></li>
+                              <li><a href="#">Privacy</a></li>
+                              <li><a href="#">Security</a></li>
+                            </ul>
+                            <div class="comment_answer">0</div>
+                            
+                            
+                        </div>
+                    </div>
+              </div>
+              <div class="posts_item">
+                  <img src="img/posts2.png" alt="Picture" class="posts_img">
+                  <div class="post_text">
+                      <a href="#">How to get cheaper flights using a VPN</a> 
+                        <div class="comment post_comment">
+                            <div class="comment_person"> Jayson 
+                              <span class="comment_date">|  JUL 24, 2018</span> 
+                              </div>
+                            <ul class="comment_tags">
+                              <li><a href="#">Guides</a></li>
+                            </ul>
+                            <div class="comment_answer">0</div>
+                            
+                            
+                        </div>
+                    </div>                  
+              </div>
+              <div class="posts_item">
+                  <img src="img/posts3.png" alt="Picture" class="posts_img">
+                  <div class="post_text">
+                      <a href="#">Net Neutrality was repealed, but the fight is far from over</a> 
+                        <div class="comment post_comment">
+                            <div class="comment_person"> Chris Miller 
+                              <span class="comment_date">|  JUL 22, 2018</span> 
+                              </div>
+                            <ul class="comment_tags">
+                              <li><a href="#">Governments</a></li>
+                              <li><a href="#">Net Neutrality</a></li>
+                              <li><a href="#">News</a></li>                              
+                            </ul>
+                            <div class="comment_answer">0</div>
+                            
+                            
+                        </div>
+                    </div>                  
+              </div>
+              <div class="posts_item mobile">
+                  <img src="img/posts1.png" alt="Picture" class="posts_img">
+                  <div class="post_text">
+                      <a href="#">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises</a> 
+                        <div class="comment post_comment">
+                            <div class="comment_person"> Derek Zimmer 
+                              <span class="comment_date">|  JUL 25, 2018</span> 
+                              </div>
+                            <ul class="comment_tags">
+                              <li><a href="#">Governments</a></li>
+                              <li><a href="#">Networking</a></li>
+                              <li><a href="#">Open Source</a></li>
+                              <li><a href="#">Privacy</a></li>
+                              <li><a href="#">Security</a></li>
+                            </ul>
+                            <div class="comment_answer">0</div>
+                            
+                            
+                        </div>
+                    </div>
+              </div>
+              <div class="posts_item mobile">
+                  <img src="img/posts2.png" alt="Picture" class="posts_img">
+                  <div class="post_text">
+                      <a href="#">How to get cheaper flights using a VPN</a> 
+                        <div class="comment post_comment">
+                            <div class="comment_person"> Jayson 
+                              <span class="comment_date">|  JUL 24, 2018</span> 
+                              </div>
+                            <ul class="comment_tags">
+                              <li><a href="#">Guides</a></li>
+                            </ul>
+                            <div class="comment_answer">0</div>
+                            
+                            
+                        </div>
+                    </div>                  
+              </div>
+              <div class="posts_item mobile">
+                  <img src="img/posts3.png" alt="Picture" class="posts_img">
+                  <div class="post_text">
+                      <a href="#">Net Neutrality was repealed, but the fight is far from over</a> 
+                        <div class="comment post_comment">
+                            <div class="comment_person"> Chris Miller 
+                              <span class="comment_date">|  JUL 22, 2018</span> 
+                              </div>
+                            <ul class="comment_tags">
+                              <li><a href="#">Governments</a></li>
+                              <li><a href="#">Net Neutrality</a></li>
+                              <li><a href="#">News</a></li>                              
+                            </ul>
+                            <div class="comment_answer">0</div>
+                            
+                            
+                        </div>
+                    </div>                  
+              </div>
+              <a href="#" class="btn post_btn">older posts</a>
+            </div>
+            <div class="sidebar">
+              <label><input type="search" placeholder="Search blog" class="input_search">
+              </label>
               <div class="sidebar_item"> 
-                    <div class="sidebar_header"> 
-                      <img src="img/icon/bell.png" alt="bell"> 
-                      <span>Announcements</span> 
+                    <div class="sidebar_header announcements">                        
+                      Announcements
                     </div>
                 <ul>
                     <li> <a href="#">Upcoming Changes (Live Chat, Less Censorship, More Access)</a> </li>
@@ -222,9 +253,8 @@
                 </ul>
               </div>
               <div class="sidebar_item"> 
-                    <div class="sidebar_header"> 
-                      <img src="img/icon/announcements.png" alt="icon"> 
-                      <span>Popular posts</span> 
+                    <div class="sidebar_header popular_posts"> 
+                      Popular posts
                     </div>
                 <ul>
                     <li> <a href="#">The Gift of Privacy</a> </li>
@@ -234,8 +264,8 @@
                     <li> <a href="#">Wiretapping Today Just Doesn’t Mean What The Word Meant In The 1990s, So Don’t Fall For That Lie</a> </li>
                 </ul>
               </div>
-              <div> <a href="#"><img src="img/Bitmap.png" alt="image"></a></div>
-              <div class="sidebar_tags">Tag cloud
+              <div class="sidebar_item sidebar_img"> <img src="img/Bitmap.png" alt="image"></div>
+              <div class="sidebar_item sidebar_tags">Tag cloud
                   <div id="tagcloud" class="tagCloud">
         <a href="#" rel="0.1">Lorem</a>
         <a href="#" rel="2">ipsum</a>
@@ -298,19 +328,18 @@
         <a href="#" rel="1">in</a>
         <a href="#" rel="1">voluptate</a>
         <a href="#" rel="1">velit</a>
-      </div>
+                </div>
               </div>
-              
+              <section></section>
+            </div>
           </div>
-        </div>
-        </div>
-        <div class="subscription">
+        </section>
+        <section class="subscription">
             <div class="container">
-                <p class="subscription_text">Sign up today – 7 day money back guarantee</p>
+                <h3 class="subscription_title">Sign up today – 7 day money back guarantee</h3>
                 <div class="sign_up">
-                    <div class="sign_up_items">
-                        <div class="sign_up_item">
-                            <span>monthly</span>
+                    <div class="sign_up_item">
+                            <span class="item_title">monthly</span>
                             <span class="sigh_up_line"></span>
                             <span class="sigh_up_price">
                                 <sup>$</sup>
@@ -319,11 +348,9 @@
                             </span>
                             <span class="sign_up_text">Includes all VPN features.</span>
                             <a href="#" class="btn subscr_btn">sign up</a>
-                        </div>
                     </div>
-                    <div class="sign_up_items active">
-                        <div class="sign_up_item">
-                            <span>Two Years</span>
+                    <div class="sign_up_item active">
+                            <span class="item_title">Two Years</span>
                             <span class="sigh_up_line"></span>
                             <span class="sigh_up_price">
                                 <sup>$</sup>
@@ -332,14 +359,12 @@
                             </span>
                             <span class="sign_up_text">
                                 <span>$166.80</span>
-                                $69.95 per two years
+                                $69.95 per two years <br>
                             <a href="#">Save 58%*</a></span>
                             <a href="#" class="btn subscr_btn">sign up</a>
-                        </div>
                     </div>
-                    <div class="sign_up_items">
-                        <div class="sign_up_item">
-                            <span>YEARLY</span>
+                    <div class="sign_up_item">
+                            <span class="item_title">YEARLY</span>
                             <span class="sigh_up_line"></span>
                             <span class="sigh_up_price">
                                 <sup>$</sup>
@@ -348,38 +373,36 @@
                             </span>
                             <span class="sign_up_text">
                                 <span>$83.40</span>
-                                $39.95 per year
+                                $39.95 per year <br>
                             <a href="#">Save 52%*</a></span>
                             <a href="#" class="btn subscr_btn">sign up</a>
-                        </div>
                     </div>
+                </div>                
+                <div class="pay">
+                  <span>Ways to pay: </span> 
+                      <div class="pay_items">
+                          <img src="img/pay/visa.png" alt="visa">
+                          <img src="img/pay/mc_vrt_pos.png" alt="mastercard">
+                          <img src="img/pay/amex_logo.png" alt="AmExpress">
+                          <img src="img/pay/paypal.png" alt="paypal">
+                          <img src="img/pay/Bitcoin.png" alt="bitcoin">
+                          <img src="img/pay/OK Pay.png" alt="okpay">
+                          <img src="img/pay/amazone.png" alt="amazone">
+                      </div>
                 </div>
-                
-                    <div class="pay">
-                        <span>Ways to pay: </span> 
-                            <div class="pay_items">
-                                <img src="img/pay/visa.png" alt="visa">
-                                <img src="img/pay/mc_vrt_pos.png" alt="mastercard">
-                                <img src="img/pay/amex_logo.png" alt="AmExpress">
-                                <img src="img/pay/paypal.png" alt="paypal">
-                                <img src="img/pay/Bitcoin.png" alt="bitcoin">
-                                <img src="img/pay/OK Pay.png" alt="okpay">
-                                <img src="img/pay/amazone.png" alt="amazone">
-                            </div>
-                    </div>
-                    <div class="pay_link">
-                        <a href="#" class="green">How to pay anonymously <span>&#8594</span></a>
-                        <a href="#" class="green">REDEEM GIFT CARD <span>&#8594</span></a>
-                    </div>
-                
+                <div class="pay_link">
+                        <a href="#" >How to pay anonymously <span>&#8594</span></a>
+                        <a href="#" >REDEEM GIFT CARD <span>&#8594</span></a>
+                </div> 
             </div>
-        </div>
-        <footer class="footer">
+        </section>
+      </main>    
+      <footer class="footer">
           <div class="container">
-              <div class="nav_company company">Company Name</div>
+              <div class="nav_company ">Company Name</div>
               <div class="footer_items">
                   <div class="footer_item">
-                      <h3>company</h3>
+                      <h4>company</h4>
                       <ul>
                           <li> <a href="#">About Us</a> </li>
                           <li> <a href="#">Our Team</a> </li>
@@ -393,12 +416,12 @@
                       </ul>
                   </div>
                   <div class="footer_item">
-                      <h3>programs</h3>
+                      <h4>programs</h4>
                         <ul>
                           <li> <a href="#">Whitehat Security</a> </li>
                           <li> <a href="#">Affiliates</a> </li>
                         </ul>
-                        <h3>learn more</h3>
+                        <h4>learn more</h4>
                         <ul>
                           <li> <a href="#">VPN Encryption</a> </li>
                           <li> <a href="#">Android VPN App</a> </li>
@@ -407,61 +430,60 @@
                         </ul>
                   </div>
                   <div class="footer_item">
-                      <h3>LEGAL</h3>
+                      <h4>LEGAL</h4>
                         <ul>
                             <li> <a href="#">Terms Of Service</a> </li>
                           <li> <a href="#">Privacy Policy</a> </li>
                           <li> <a href="#">DMCA Policy</a> </li>
                           <li> <a href="#">Export Control Policy</a></li>
                         </ul>
-                  </div>
-                 
-                    <div class="footer_item mobi1">
-                      <h3>ABOUT</h3>
+                  </div>                 
+                  <div class="footer_item about_card">
+                      <h4>ABOUT</h4>
                       <ul>
                         <li> Private Internet Access is the leading VPN Service provider
-                           specializing in secure, encrypted VPN tunnels which create
+                            specializing in secure, encrypted VPN tunnels which create
                             several layers of privacy and security providing you safety
-                             on the internet. Our service is backed by multiple gateways
-                              worldwide with access in 28+ countries, 44+ regions. </li>
+                            on the internet. Our service is backed by multiple gateways
+                            worldwide with access in 28+ countries, 44+ regions. </li>
                           <li class="footer_text"> Map data provided by Google. </li>
                           <li class="footer_text"> PC Mag Editor's Choice award image reprinted with permission.
-                             © 2012 Ziff Davis, Inc. All Rights Reserved.
+                            © 2012 Ziff Davis, Inc. All Rights Reserved.
                             PC Mag quote reprinted from www.pcmag.com with permission. © 2012 Ziff Davis,
                             Inc. All Rights Reserved. </li>
                           <li class="footer_text"> © London Trust Media, Inc. All Rights Reserved.</li>
-                        </ul>
-                            <div class="social">
-                            <h3 >SOCIAL</h3> 
-                            <a href="#"> <img src="img/icon/f.png" alt="facebook"> </a>
-                            <a href="#"> <img src="img/icon/twitter.png" alt="twitter"> </a>
-                            <a href="#"> <img src="img/icon/google.png" alt="G+"> </a>
-                            <a href="#"> <img src="img/icon/linkedin.png" alt="linkedin"> </a>
-                            <a href="#"> <img src="img/icon/2SL.png" alt="2SL"> </a>
-                            <a href="#"> <img src="img/icon/youtube.png" alt="youtube"> </a>
-                            </div>
-                        </div>
-                        <div class="footer_item mobi2">
-                           <h3>SOCIAL</h3> 
-                           <a href="#"> <img src="img/icon/f.png" alt="facebook"> </a>
-                           <a href="#"> <img src="img/icon/twitter.png" alt="twitter"> </a>
-                           <a href="#"> <img src="img/icon/google.png" alt="G+"> </a>
-                           <a href="#"> <img src="img/icon/linkedin.png" alt="linkedin"> </a>
-                           <a href="#"> <img src="img/icon/2SL.png" alt="2SL"> </a>
-                           <a href="#"> <img src="img/icon/youtube.png" alt="youtube"> </a>
-                        </div>
+                        </ul>                            
+                  </div>
+                  <div class="footer_item social_card">                    
+                    <h4>SOCIAL</h4>
+                    <ul>
+                      <li><a href="#"> <img src="img/icon/f.png" alt="facebook"> </a>
+                      </li>
+                      <li><a href="#"> <img src="img/icon/twitter.png" alt="twitter"> </a>
+                      </li>
+                      <li><a href="#"> <img src="img/icon/google.png" alt="G+"> </a>
+                      </li>
+                      <li><a href="#"> <img src="img/icon/linkedin.png" alt="linkedin"> </a>
+                      </li>
+                      <li><a href="#"> <img src="img/icon/2SL.png" alt="2SL"> </a>
+                      </li>
+                      <li><a href="#"> <img src="img/icon/youtube.png" alt="youtube"> </a>
+                      </li>
+                    </ul> 
+                            
+                  </div>                
               </div>
           </div>  
-        </footer>
+      </footer>
     </div>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="jquery.tagcloud.js"></script>
-<script>
-$("#tagcloud a").tagcloud({
-	size: {start: 10, end: 26, unit: "px"},
-	color: {start: '#a1a1a1', end: '#000000'}
-});
-</script>
+    <script>
+    $("#tagcloud a").tagcloud({
+      size: {start: 10, end: 26, unit: "px"},
+      color: {start: '#a1a1a1', end: '#000000'}
+    });
+    </script>
   </body>
 </html>
